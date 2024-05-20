@@ -16,11 +16,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: true,
       ),
-      // home: HomeTravel(),
-      home: DiscoveryPlants(),
+      home: HomeTravel(),
+     // //home: DiscoveryPlants(),
     );
   }
 }
